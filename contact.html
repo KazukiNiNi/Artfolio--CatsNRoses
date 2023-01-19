@@ -13,7 +13,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-red">
         <div class="container-fluid">     
             <a class="navbar-brand" href="#">
             <img src="images/catLogo.png" alt="Logo" height="140px" width="160px" class="d-inline-block align-text-center"/>
@@ -48,8 +48,24 @@
         </div>
     </nav>
 </header>
-<!-- Photo Grid -->
-
+<!-- contact -->
+<div class="container">
+    <div class="background-form">
+        <form action="action_page.php"
+        <img src="images/contactBG.png" alt="">
+    
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="fullName" placeholder="Your name..">
+    
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+    
+        <label for="subject">Message:</label>
+        <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>  
+        <input type="submit" value="Send">
+        </form>
+    </div>
+  </div>
 <footer class="text-center p-3" style="background-color: rgba(66, 20, 24, 1)">
     <a class="text-white" > Copyright © 2023 CatsNRoses • All Rights Reserved •</a>
 </footer>
