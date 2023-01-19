@@ -116,8 +116,9 @@ input[type=text], select, textarea {
     background-color: #a41414;
     padding: 20px;
   }
-#h1{
-    color: #FFFFFF;
+h1{
+    color: snow;
+    font-family: 'Cookie', cursive;
 }
 p{
     color: snow;
