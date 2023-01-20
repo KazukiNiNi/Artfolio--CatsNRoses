@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
-.bg-body-tertiary{
+.bg-body-red{
     background-color: rgba(66, 20, 24, 1);;
 }
 h2{
@@ -11,9 +11,9 @@ h2{
     font-family: 'Cookie', cursive;
     
 }
-h2 .white-text{
+/* h2 .white-text{
     color:whitesmoke;
-} 
+}  */
 a.nav-link{
     display: flex;
     color:burlywood;
