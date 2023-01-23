@@ -1,0 +1,47 @@
+body{
+    background-color:#bb0000;
+}
+.background-form{
+    background-color: rgba(30, 30, 30, 1);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 5;
+    background-color: Orchid;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: linear-gradient(LightskyBlue,Orchid, yellow);
+    color: white;
+}
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+
+.contact-icons{
+    background-color: rgba(30, 30, 30, 1);
+    display: flex;
+    justify-content: center;
+}
