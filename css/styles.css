@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 .bg-body-red{
-    background-color: rgba(66, 20, 24, 1);;
+    background-color: rgba(66, 20, 24, 1);
 }
+/* Navbar */
 h2{
     color: #FFFFFF;
     font-weight: 400;
@@ -11,9 +12,6 @@ h2{
     font-family: 'Cookie', cursive;
     
 }
-/* h2 .white-text{
-    color:whitesmoke;
-}  */
 a.nav-link{
     display: flex;
     color:burlywood;
@@ -21,12 +19,21 @@ a.nav-link{
     font-size: 2.5em;
     justify-content: space-evenly;
     margin-top: 1.75em;
-    margin-left: 1.75em;
-    
+    margin-left: 1.75em;   
 }
+span.navbar-toggler-icon{
+  width: 47px;
+  height: 34px;
+  border: snow;
+   }
+button.navbar-toggler{
+  background-color: #D5A84C;
+}
+
 body{
     background-color: #1E1E1E;;
 }
+/* Images */
 .row {
     display: flex;
     flex-wrap: wrap;
